@@ -8,6 +8,6 @@
 		<cli>Asterisk CLI</cli>
 	</menuitems>
 	<location>release/asterisk-cli-0.001.tgz</location>
-	<info>http://freepbx.org/wiki/AsteriskCli</info>
+	<info>http://aussievoip.com.au/wiki/freePBX-CLI</info>
 	<md5sum>68041455f195e3c0b933821d5d77bb28</md5sum>
 </module>
