@@ -10,9 +10,9 @@
 	<depends>
 		<engine>asterisk</engine>
 	</depends>
-	<location>release//2.2/asterisk-cli-0.001.tgz</location>
+	<location>release/2.2/asterisk-cli-1.0.tgz</location>
 	<info>http://aussievoip.com.au/wiki/freePBX-CLI</info>
-	<md5sum>d2f19494379f862545fbc4ac27185580</md5sum>
+	<md5sum>af3c22f41599762122e075ac734b1612</md5sum>
 	<changelog>
 *1.0* Fixed security issue, first release in 2.2
 *0.001* Original Release
