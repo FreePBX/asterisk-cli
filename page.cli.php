@@ -65,7 +65,9 @@ if (!isBlank($txtCommand))
 	putenv("TERM=vt100");
 	putenv("PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin");
 	putenv("SCRIPT_FILENAME=" . strtok(stripslashes($txtCommand), " "));  /* PHP scripts */
-	$ph = popen(stripslashes("asterisk -rx \"$txtCommand\""), "r" );
+	$badchars = array("'", "`", "\\", ";", "\""); // Strip off any nasty chars.
+	$fixedcmd = str_replace($badchars, "", $txtCommand);
+	$ph = popen(stripslashes("asterisk -rx \"$fixedcmd\""), "r" );
 	while ($line = fgets($ph))
 		echo htmlspecialchars($line);
 	pclose($ph);
