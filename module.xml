@@ -3,7 +3,7 @@
 	<name>Asterisk CLI</name>
 	<version>1.0</version>
 	<type>tool</type>
-	<category>System Admin</category>
+	<category>System Administration</category>
 	<menuitems>
 		<cli>Asterisk CLI</cli>
 	</menuitems>
