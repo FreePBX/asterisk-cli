@@ -76,4 +76,3 @@ if (!isBlank($txtCommand))
 
 ?>
 
-</div>
