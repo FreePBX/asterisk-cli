@@ -67,7 +67,7 @@ if (!isBlank($txtCommand))
 	putenv("SCRIPT_FILENAME=" . strtok(stripslashes($txtCommand), " "));  /* PHP scripts */
 	$badchars = array("'", "`", "\\", ";", "\""); // Strip off any nasty chars.
 	$fixedcmd = str_replace($badchars, "", $txtCommand);
-	$ph = popen(stripslashes("asterisk -rx \"$fixedcmd\""), "r" );
+	$ph = popen(stripslashes("asterisk -nrx \"$fixedcmd\""), "r" );
 	while ($line = fgets($ph))
 		echo htmlspecialchars($line);
 	pclose($ph);
