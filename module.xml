@@ -10,9 +10,9 @@
 	<depends>
 		<engine>asterisk</engine>
 	</depends>
-	<location>release/2.2/asterisk-cli-1.0.tgz</location>
+	<location>release/2.3/asterisk-cli-1.1.1.tgz</location>
 	<info>http://aussievoip.com.au/wiki/freePBX-CLI</info>
-	<md5sum>af3c22f41599762122e075ac734b1612</md5sum>
+	<md5sum>8dd59a71e2fbaf6e21ee8ea633b7052f</md5sum>
 	<changelog>
 		*1.1.1* #2070 fix proper use of script tags
 		*1.1* #2006 Fixed display on systems with colored asterisk console
