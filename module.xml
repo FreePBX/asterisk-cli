@@ -1,7 +1,7 @@
 <module>
 	<rawname>asterisk-cli</rawname>
 	<name>Asterisk CLI</name>
-	<version>1.0</version>
+	<version>1.1.1</version>
 	<type>tool</type>
 	<category>System Administration</category>
 	<menuitems>
@@ -14,8 +14,9 @@
 	<info>http://aussievoip.com.au/wiki/freePBX-CLI</info>
 	<md5sum>af3c22f41599762122e075ac734b1612</md5sum>
 	<changelog>
-*1.1* Fixed display on systems with colored asterisk console, fixes ticket:2006
-*1.0* Fixed security issue, first release in 2.2
-*0.001* Original Release
+		*1.1.1* #2070 fix proper use of script tags
+		*1.1* #2006 Fixed display on systems with colored asterisk console
+		*1.0* Fixed security issue, first release in 2.2
+		*0.001* Original Release
 	</changelog>
 </module>

@@ -35,7 +35,7 @@ $txtCommand = isset($_POST['txtCommand'])?$_POST['txtCommand']:'';
 	<table>
 		<tr>
 			<td class="label" align="right"><?php echo _("Command:")?></td>
-			<td class="type"><input name="txtCommand" type="text" size="70" value="<?=htmlspecialchars($txtCommand);?>"></td>
+			<td class="type"><input name="txtCommand" type="text" size="70" value="<?php=htmlspecialchars($txtCommand);?>"></td>
 		</tr>
 		
 		<tr>
