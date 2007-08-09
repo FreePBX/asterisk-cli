@@ -10,8 +10,8 @@
 	<depends>
 		<engine>asterisk</engine>
 	</depends>
-	<location>release/2.3/asterisk-cli-1.1.2.tgz</location>
-	<md5sum>7929037280dc0784157e61290c8b38ab</md5sum>
+	<location>release/2.3/asterisk-cli-1.1.2.1.tgz</location>
+	<md5sum>8ff0b4e6fd6b15ca1586902d377e06f6</md5sum>
 	<changelog>
 		*1.1.2.1* bump for rc1
 		*1.1.2* fix syntax error, extra =
