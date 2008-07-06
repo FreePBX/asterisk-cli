@@ -35,13 +35,13 @@ $txtCommand = isset($_POST['txtCommand'])?$_POST['txtCommand']:'';
 	<table>
 		<tr>
 			<td class="label" align="right"><?php echo _("Command:")?></td>
-			<td class="type"><input name="txtCommand" type="text" size="70" value="<?php htmlspecialchars($txtCommand);?>"></td>
+			<td class="type"><input name="txtCommand" type="text" size="70" value="<?php htmlspecialchars($txtCommand);?>" tabindex="<?php echo ++$tabindex;?>"></td>
 		</tr>
 		
 		<tr>
 			<td valign="top">   </td>
 			<td valign="top" class="label">
-				<input type="submit" class="button" value="<?php echo _("Execute:")?>">
+				<input type="submit" class="button" value="<?php echo _("Execute:")?>" tabindex="<?php echo ++$tabindex;?>">
 			</td>
 		</tr>
 		
