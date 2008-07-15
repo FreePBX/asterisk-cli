@@ -1,7 +1,7 @@
 <module>
 	<rawname>asterisk-cli</rawname>
 	<name>Asterisk CLI</name>
-	<version>2.4.0</version>
+	<version>2.5.0</version>
 	<type>tool</type>
 	<category>System Administration</category>
 	<menuitems>
@@ -13,6 +13,7 @@
 	<location>release/2.4/asterisk-cli-2.4.0.tgz</location>
 	<md5sum>bf0e8951ff0b8bce0a3f826f586d0677</md5sum>
 	<changelog>
+		*2.5.0* #2917 execute CLI command direct through manager to remove vulnerabilities
 		*2.4.0* 2.4 branch (added IT translations also)
 		*1.1.2.1* bump for rc1
 		*1.1.2* fix syntax error, extra =

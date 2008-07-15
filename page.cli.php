@@ -61,17 +61,8 @@ function isBlank( $arg ) { return ereg( "^\s*$", $arg ); }
 
 if (!isBlank($txtCommand))
 {
-	echo "<pre>";
-	putenv("TERM=vt100");
-	putenv("PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin");
-	putenv("SCRIPT_FILENAME=" . strtok(stripslashes($txtCommand), " "));  /* PHP scripts */
-	$badchars = array("'", "`", "\\", ";", "\""); // Strip off any nasty chars.
-	$fixedcmd = str_replace($badchars, "", $txtCommand);
-	$ph = popen(stripslashes("asterisk -nrx \"$fixedcmd\""), "r" );
-	while ($line = fgets($ph))
-		echo htmlspecialchars($line);
-	pclose($ph);
-	echo "</pre>";
+	$html_out = cli_runcommand($txtCommand);
+	echo $html_out;
 }
 
 ?>
