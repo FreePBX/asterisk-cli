@@ -4,6 +4,7 @@
 	<version>2.5.0.1</version>
 	<type>tool</type>
 	<category>System Administration</category>
+	<description>Provides an interface allowing you to run a commans as if it was typed into Asterisk CLI</description>
 	<menuitems>
 		<cli>Asterisk CLI</cli>
 	</menuitems>
