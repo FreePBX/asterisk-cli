@@ -1,0 +1,30 @@
+# translation of asterisk-cli.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterisk-cli\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-17 11:08+0200\n"
+"PO-Revision-Date: 2008-10-27 21:27+0100\n"
+"Last-Translator: \n"
+"Language-Team:  <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: page.cli.php:32
+msgid "Asterisk CLI"
+msgstr "Asterisk CLI"
+
+#: page.cli.php:37
+msgid "Command:"
+msgstr "Comando:"
+
+#: page.cli.php:44
+msgid "Execute:"
+msgstr "Ejecutar:"
+
