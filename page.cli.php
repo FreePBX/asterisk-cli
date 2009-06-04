@@ -23,6 +23,8 @@
 //  Kristian Kielhofner - KrisCompanies, LLC - http://astlinux.org/
 //
 $txtCommand = isset($_POST['txtCommand'])?$_POST['txtCommand']:'';
+
+$tabindex = 0;
 ?>
 
 <h2><?php echo _("Asterisk CLI")?></h2>
