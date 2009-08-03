@@ -1,7 +1,9 @@
 <module>
 	<rawname>asterisk-cli</rawname>
 	<name>Asterisk CLI</name>
-	<version>2.5.0.2</version>
+	<version>2.6.0.0</version>
+	<publisher>FreePBX</publisher>
+	<license>GPLv2+</license>
 	<type>tool</type>
 	<category>System Administration</category>
 	<description>Provides an interface allowing you to run a commans as if it was typed into Asterisk CLI</description>
@@ -14,6 +16,7 @@
 	<location>release/2.5/asterisk-cli-2.5.0.2.tgz</location>
 	<md5sum>bb5da9daa777abdc778fba9e3746c7e1</md5sum>
 	<changelog>
+		*2.6.0.0* localizations, misc
 		*2.5.0.2* description added to xml
 		*2.5.0.1* r6547 Swedish Translations
 		*2.5.0* #2917 execute CLI command direct through manager to remove vulnerabilities
