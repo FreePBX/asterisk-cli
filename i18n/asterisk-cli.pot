@@ -14,14 +14,13 @@
 #    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
 #
 # FreePBX language template for asterisk-cli
-# Copyright (C) 2008, 2009 FreePBX
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-17 11:08+0200\n"
+"POT-Creation-Date: 2010-02-18 22:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,14 +28,25 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: page.cli.php:32
+#: asterisk-cli/asterisk-cli.i18n.php:5 asterisk-cli/asterisk-cli.i18n.php:11
+#: asterisk-cli/page.cli.php:30
 msgid "Asterisk CLI"
 msgstr ""
 
-#: page.cli.php:37
+#: asterisk-cli/asterisk-cli.i18n.php:7
+msgid "System Administration"
+msgstr ""
+
+#: asterisk-cli/asterisk-cli.i18n.php:9
+msgid ""
+"Provides an interface allowing you to run a commans as if it was typed into "
+"Asterisk CLI"
+msgstr ""
+
+#: asterisk-cli/page.cli.php:35
 msgid "Command:"
 msgstr ""
 
-#: page.cli.php:44
+#: asterisk-cli/page.cli.php:42
 msgid "Execute:"
 msgstr ""
