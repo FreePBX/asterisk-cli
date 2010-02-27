@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-17 11:08+0200\n"
+"POT-Creation-Date: 2010-02-27 17:34+0100\n"
 "PO-Revision-Date: 2008-11-04 17:12+0100\n"
 "Last-Translator: Francesco Romano <francesco.romano@alteclab.it>\n"
 "Language-Team: Italian\n"
@@ -17,15 +17,19 @@ msgstr ""
 "X-Poedit-Language: Italian\n"
 "X-Poedit-Country: ITALY\n"
 
-#: page.cli.php:32
 msgid "Asterisk CLI"
 msgstr "Asterisk CLI"
 
-#: page.cli.php:37
+msgid "System Administration"
+msgstr ""
+
+msgid ""
+"Provides an interface allowing you to run a command as if it was typed into "
+"Asterisk CLI"
+msgstr ""
+
 msgid "Command:"
 msgstr "Comando:"
 
-#: page.cli.php:44
 msgid "Execute:"
 msgstr "Esegui:"
-

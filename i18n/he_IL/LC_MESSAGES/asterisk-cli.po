@@ -3,22 +3,30 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Shimi <shimi@shimi.net>, 2006.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-10-17 17:20+0300\n"
+"POT-Creation-Date: 2010-02-27 17:34+0100\n"
 "PO-Revision-Date: 2006-10-17 17:30+0300\n"
 "Last-Translator: Shimi <shimi@shimi.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: page.cli.php:32
 msgid "Asterisk CLI"
 msgstr "ממשק שורת הפקודה של אסטריסק"
 
-#: page.cli.php:37
+msgid "System Administration"
+msgstr ""
+
+msgid ""
+"Provides an interface allowing you to run a command as if it was typed into "
+"Asterisk CLI"
+msgstr ""
+
 msgid "Command:"
 msgstr "פקודה:"
+
+msgid "Execute:"
+msgstr ""

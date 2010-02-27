@@ -1,8 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: FreePBX - módulo asterisk-cli module spanish translation\n"
+"Project-Id-Version: FreePBX - módulo asterisk-cli module spanish "
+"translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-17 11:08+0200\n"
+"POT-Creation-Date: 2010-02-27 17:34+0100\n"
 "PO-Revision-Date: 2009-01-22 00:57+0100\n"
 "Last-Translator: Juan Asensio Sánchez <okelet@gmail.com>\n"
 "Language-Team: Juan Asensio Sánchez <okelet@gmail.com>\n"
@@ -13,15 +14,19 @@ msgstr ""
 "X-Poedit-Country: SPAIN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: page.cli.php:32
 msgid "Asterisk CLI"
 msgstr "Asterisk CLI"
 
-#: page.cli.php:37
+msgid "System Administration"
+msgstr ""
+
+msgid ""
+"Provides an interface allowing you to run a command as if it was typed into "
+"Asterisk CLI"
+msgstr ""
+
 msgid "Command:"
 msgstr "Comando:"
 
-#: page.cli.php:44
 msgid "Execute:"
 msgstr "Ejecutar:"
-
