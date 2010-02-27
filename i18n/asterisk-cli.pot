@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-27 13:44+0100\n"
+"POT-Creation-Date: 2010-02-27 17:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,25 +28,19 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: asterisk-cli/asterisk-cli.i18n.php:5 asterisk-cli/asterisk-cli.i18n.php:11
-#: asterisk-cli/page.cli.php:30
 msgid "Asterisk CLI"
 msgstr ""
 
-#: asterisk-cli/asterisk-cli.i18n.php:7
 msgid "System Administration"
 msgstr ""
 
-#: asterisk-cli/asterisk-cli.i18n.php:9
 msgid ""
 "Provides an interface allowing you to run a command as if it was typed into "
 "Asterisk CLI"
 msgstr ""
 
-#: asterisk-cli/page.cli.php:35
 msgid "Command:"
 msgstr ""
 
-#: asterisk-cli/page.cli.php:42
 msgid "Execute:"
 msgstr ""
