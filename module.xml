@@ -1,7 +1,7 @@
 <module>
 	<rawname>asterisk-cli</rawname>
 	<name>Asterisk CLI</name>
-	<version>2.6.0.0</version>
+	<version>2.7.0.0</version>
 	<publisher>FreePBX</publisher>
 	<license>GPLv2+</license>
 	<type>tool</type>
@@ -13,9 +13,10 @@
 	<depends>
 		<engine>asterisk</engine>
 	</depends>
-	<location>release/2.6/asterisk-cli-2.6.0.0.tgz</location>
-	<md5sum>9feb2f00d6f47b6db5cf222ae1f46f35</md5sum>
+	<location>release/2.7/asterisk-cli-2.7.0.0.tgz</location>
+	<md5sum>23d372f67a86d8e4a6a6f4686085c4b7</md5sum>
 	<changelog>
+		*2.7.0.0* spelling fixes, localization updates
 		*2.6.0.0* localizations, misc
 		*2.5.0.2* description added to xml
 		*2.5.0.1* r6547 Swedish Translations
