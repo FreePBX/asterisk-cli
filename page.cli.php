@@ -55,7 +55,7 @@ $tabindex = 0;
 </p>
 <?php endif; 
 
-function isBlank( $arg ) { return ereg( "^\s*$", $arg ); }
+function isBlank( $arg ) { return (trim($arg) == ''); }
 
 if (!isBlank($txtCommand))
 {
