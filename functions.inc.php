@@ -33,7 +33,7 @@ function cli_runcommand($txtCommand) {
 		$response = explode("\n",$response['data']);
 		unset($response[0]); //remove the Priviledge Command line
 		$response = implode("\n",$response);
-		$html_out .= $response;
+		$html_out .= htmlspecialchars($response);
 		$html_out .= "</pre>";
 		return $html_out;
 	}
