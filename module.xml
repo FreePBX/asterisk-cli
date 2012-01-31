@@ -13,8 +13,8 @@
 	<depends>
 		<engine>asterisk</engine>
 	</depends>
-	<location>release/2.10/asterisk-cli-2.10.0.0.tgz</location>
-	<md5sum>6e6fba7a28c3f326e13e18fab355ee64</md5sum>
+	<location>release/2.10/asterisk-cli-2.10.0.1.tgz</location>
+	<md5sum>e7ca7a08ec8f58a45b6e209cddb3fb17</md5sum>
 	<changelog>
 		*2.10.0.1* #5478
 		*2.10.0.0* new version changes
