@@ -36,4 +36,7 @@
 		*1.0* Fixed security issue, first release in 2.2
 		*0.001* Original Release
 	</changelog>
+	<supported>
+		<version>2.10</version>
+	</supported>
 </module>
