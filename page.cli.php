@@ -7,9 +7,9 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-sm-9">
+		<div class="col-sm-12">
 			<div class="fpbx-container">
-				<div class="display">
+				<div class="display full-border">
 					<div class="container-fluid">
 						<div class="section-title" data-for="asteriskcli">
 							<h3><?php echo _("Asterisk CLI") ?></h3>

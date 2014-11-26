@@ -52,7 +52,7 @@ class Asteriskdashcli implements \BMO {
 	public function getActionBar($request) {
 		$buttons = array();
 		switch($request['display']) {
-			case 'clitool':
+			case 'cli':
 				$buttons = array(
 					'submit' => array(
 					'name' => 'CLIcmd',
