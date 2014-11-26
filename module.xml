@@ -2,7 +2,7 @@
 	<rawname>asterisk-cli</rawname>
 	<repo>extended</repo>
 	<name>Asterisk CLI</name>
-	<version>2.11.0.0</version>
+	<version>13.0.0.1</version>
 	<publisher>FreePBX</publisher>
 	<license>GPLv2+</license>
 	<category>Admin</category>
@@ -16,6 +16,7 @@
 	<location>release/2.11/asterisk-cli-2.11.0.0.tgz</location>
 	<md5sum>e575da7d4cc3a449e248bad57c66dcb5</md5sum>
 	<changelog>
+		*13.0.0.1* Rewrite for AJAX and BMO
 		*2.11.0.0* bump release
 		*2.10.0.1* #5478
 		*2.10.0.0* new version changes
