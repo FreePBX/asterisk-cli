@@ -11,11 +11,11 @@ class Asteriskdashcli implements BMO {
 		$this->FreePBX = $freepbx;
 		$this->AstMan = $freepbx->astman;
 	}
-    public function install() {}
-    public function uninstall() {}
-    public function backup() {}
-    public function restore($backup) {}
-    public function doConfigPageInit($page) {}
+	public function install() {}
+	public function uninstall() {}
+	public function backup() {}
+	public function restore($backup) {}
+	public function doConfigPageInit($page) {}
 	public function ajaxRequest($req, &$setting) {
 		if ($req == "clicmd") {
 			return true;
@@ -29,8 +29,14 @@ class Asteriskdashcli implements BMO {
 			return json_encode($res);
 		}
 	}
-	/* This function is a modified version of what was in the asterisk-cli module
+	
+	/* This function is a modified version of what was in the original asterisk-cli module
 	 * With Copyright (C) 2005, Xorcom
+	 * Written by Diego Iastrubni <diego.iastrubni@xorcom.com>
+	 * Copyright (C) 2005, Xorcom
+	 * This function was derived from ASTLinux 0.3
+	 * The original author of AST linux is:
+	 * Kristian Kielhofner - KrisCompanies, LLC - http://astlinux.org/
 	 */
 	public function cli_runcommand($txtCommand) {
 		if ($this->AstMan) {
@@ -43,18 +49,18 @@ class Asteriskdashcli implements BMO {
 		}
 	}
 	public function getActionBar($request) {
-        $buttons = array();
-        switch($request['display']) {
-            case 'clitool':
-                $buttons = array(
-                    'delete' => array(
-                        'name' => 'CLIcmd',
-                        'id' => 'send',
-                        'value' => _('Send Command')
-                        )
-                       );
-            break;
-        }
-        return $buttons;
-    }    
+		$buttons = array();
+		switch($request['display']) {
+			case 'clitool':
+				$buttons = array(
+					'submit' => array(
+					'name' => 'CLIcmd',
+					'id' => 'send',
+					'value' => _('Send Command')
+					)
+				);
+			break;
+		}
+		return $buttons;
+	}	
 }
