@@ -1,9 +1,8 @@
 <?php
-if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 //	License for all code of this FreePBX module can be found in the license file inside the module directory
 //	Copyright 2013 Schmooze Com Inc.
-$setting = array('authenticate' => true, 'allowremote' => false);
-class Asteriskdashcli implements BMO {
+namespace FreePBX\modules;
+class Asteriskdashcli implements \BMO {
 	public function __construct($freepbx = null) {
 		if ($freepbx == null) {
 			throw new Exception("Not given a FreePBX Object");
@@ -22,15 +21,16 @@ class Asteriskdashcli implements BMO {
 		}
 		return false;
 	}
- 
+
 	public function ajaxHandler() {
 		if ($_REQUEST['command'] == "clicmd") {
 			$res = $this->cli_runcommand($_REQUEST['data']);
 			return json_encode($res);
 		}
 	}
-	
-	/* This function is a modified version of what was in the original asterisk-cli module
+
+	/**
+	 * This function is a modified version of what was in the original asterisk-cli module
 	 * With Copyright (C) 2005, Xorcom
 	 * Written by Diego Iastrubni <diego.iastrubni@xorcom.com>
 	 * Copyright (C) 2005, Xorcom
@@ -48,6 +48,7 @@ class Asteriskdashcli implements BMO {
 			return $html_out;
 		}
 	}
+
 	public function getActionBar($request) {
 		$buttons = array();
 		switch($request['display']) {
@@ -62,5 +63,5 @@ class Asteriskdashcli implements BMO {
 			break;
 		}
 		return $buttons;
-	}	
+	}
 }
