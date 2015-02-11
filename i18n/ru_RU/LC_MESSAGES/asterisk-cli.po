@@ -16,12 +16,11 @@
 # FreePBX language template for asterisk-cli
 # Copyright (C) 2008, 2009, 2010 Bandwith.com
 # Copyright (C) 2012 PostMet Corporation
-
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-23 09:52+0000\n"
+"POT-Creation-Date: 2015-02-11 13:33-0500\n"
 "PO-Revision-Date: 2012-10-28 04:00+0100\n"
 "Last-Translator: Alexander Kozyrev <ceo@postmet.com>\n"
 "Language-Team: Russian <faq@postmet.com>\n"
@@ -29,20 +28,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: /usr/src/freepbx/asterisk-cli/page.cli.php:12
 msgid "Asterisk CLI"
 msgstr "Командная строка Астериск"
 
-msgid "Admin"
-msgstr "Админ"
-
-msgid ""
-"Provides an interface allowing you to run a command as if it was typed into "
-"Asterisk CLI"
-msgstr ""
-"Даёт возможность выполнять команды в рабочей среде интерфейса командной строки Астериск"
-
+#: /usr/src/freepbx/asterisk-cli/page.cli.php:17
 msgid "Command:"
 msgstr "Команда:"
 
+#: /usr/src/freepbx/asterisk-cli/page.cli.php:24
 msgid "Execute:"
 msgstr "Выполнить:"
+
+#~ msgid "Admin"
+#~ msgstr "Админ"
+
+#~ msgid ""
+#~ "Provides an interface allowing you to run a command as if it was typed "
+#~ "into Asterisk CLI"
+#~ msgstr ""
+#~ "Даёт возможность выполнять команды в рабочей среде интерфейса командной "
+#~ "строки Астериск"

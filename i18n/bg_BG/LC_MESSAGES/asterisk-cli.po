@@ -20,33 +20,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-23 09:52+0000\n"
+"POT-Creation-Date: 2015-02-11 13:33-0500\n"
 "PO-Revision-Date: 2014-11-17 17:15+0200\n"
 "Last-Translator: Chavdar <chavdar_75@yahoo.com>\n"
 "Language-Team: Bulgarian <http://git.freepbx.org/projects/freepbx/asterisk-"
 "cli/bg_BG/>\n"
-"Language: bg_BG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: bg_BG\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 1.10-dev\n"
 
+#: /usr/src/freepbx/asterisk-cli/page.cli.php:12
 msgid "Asterisk CLI"
 msgstr "Астериск Конзола CLI"
 
-msgid "Admin"
-msgstr "Админ"
-
-msgid ""
-"Provides an interface allowing you to run a command as if it was typed into "
-"Asterisk CLI"
-msgstr ""
-"Предоставя интерфейс, който позволява да се изпълняват команди както се "
-"използват в Астериск CLI"
-
+#: /usr/src/freepbx/asterisk-cli/page.cli.php:17
 msgid "Command:"
 msgstr "Команда:"
 
+#: /usr/src/freepbx/asterisk-cli/page.cli.php:24
 msgid "Execute:"
 msgstr "Изпълни:"
+
+#~ msgid "Admin"
+#~ msgstr "Админ"
+
+#~ msgid ""
+#~ "Provides an interface allowing you to run a command as if it was typed "
+#~ "into Asterisk CLI"
+#~ msgstr ""
+#~ "Предоставя интерфейс, който позволява да се изпълняват команди както се "
+#~ "използват в Астериск CLI"
