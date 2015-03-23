@@ -25,7 +25,7 @@ msgstr "Administrador"
 #: asterisk-cli.i18n.php:3 asterisk-cli.i18n.php:6 asterisk-cli.i18n.php:8
 #: asterisk-cli.i18n.php:14 page.cli.php:12
 msgid "Asterisk CLI"
-msgstr "Asterisk CLI"
+msgstr "CLI Asterisk"
 
 #: page.cli.php:17
 msgid "Command:"
