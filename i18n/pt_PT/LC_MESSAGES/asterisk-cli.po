@@ -10,33 +10,38 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 18:59-0500\n"
-"PO-Revision-Date: 2015-02-20 18:59-0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2015-04-24 21:25+0200\n"
+"Last-Translator: Paulo <paulop1975@gmail.com>\n"
+"Language-Team: Portuguese (Portugal) "
+"<http://weblate.freepbx.org/projects/freepbx/asterisk-cli/pt_PT/>\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
 
 #: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10
 msgid "Admin"
-msgstr ""
+msgstr "Administrador"
 
 #: asterisk-cli.i18n.php:3 asterisk-cli.i18n.php:6 asterisk-cli.i18n.php:8
 #: asterisk-cli.i18n.php:14 page.cli.php:12
 msgid "Asterisk CLI"
-msgstr ""
+msgstr "CLI do Asterisk"
 
 #: page.cli.php:17
 msgid "Command:"
-msgstr ""
+msgstr "Comando:"
 
 #: page.cli.php:24
 msgid "Execute:"
-msgstr ""
+msgstr "Executar:"
 
 #: asterisk-cli.i18n.php:5 asterisk-cli.i18n.php:12
 msgid ""
 "Provides an interface allowing you to run a command as if it was typed into "
 "Asterisk CLI"
 msgstr ""
+"Providencia um interface permitindo exeecutar um comando como se estivesse "
+"no CLI do Asterisk"
