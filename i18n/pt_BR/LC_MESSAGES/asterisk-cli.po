@@ -1,0 +1,42 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for asterisk-cli
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-20 18:59-0500\n"
+"PO-Revision-Date: 2015-02-20 18:59-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10
+msgid "Admin"
+msgstr ""
+
+#: asterisk-cli.i18n.php:3 asterisk-cli.i18n.php:6 asterisk-cli.i18n.php:8
+#: asterisk-cli.i18n.php:14 page.cli.php:12
+msgid "Asterisk CLI"
+msgstr ""
+
+#: page.cli.php:17
+msgid "Command:"
+msgstr ""
+
+#: page.cli.php:24
+msgid "Execute:"
+msgstr ""
+
+#: asterisk-cli.i18n.php:5 asterisk-cli.i18n.php:12
+msgid ""
+"Provides an interface allowing you to run a command as if it was typed into "
+"Asterisk CLI"
+msgstr ""
