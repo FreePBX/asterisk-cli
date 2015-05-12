@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX asterisk-cli\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 18:59-0500\n"
+"POT-Creation-Date: 2015-05-12 19:51-0400\n"
 "PO-Revision-Date: 2008-09-03 22:11+0100\n"
 "Last-Translator: Mikael Carlsson <mickecamino@gmail.com>\n"
 "Language-Team: \n"
@@ -30,30 +30,38 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 
-#: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10
-msgid "Admin"
-msgstr ""
-
-#: asterisk-cli.i18n.php:3 asterisk-cli.i18n.php:6 asterisk-cli.i18n.php:8
-#: asterisk-cli.i18n.php:14 page.cli.php:12
+#: page.cli.php:15
 msgid "Asterisk CLI"
 msgstr "Asterisk kommandorad"
 
-#: page.cli.php:17
-msgid "Command:"
-msgstr "Kommando"
-
-#: page.cli.php:24
-msgid "Execute:"
-msgstr "Utför"
-
-#: asterisk-cli.i18n.php:5 asterisk-cli.i18n.php:12
-msgid ""
-"Provides an interface allowing you to run a command as if it was typed into "
-"Asterisk CLI"
+#: page.cli.php:25
+msgid "CLI Command"
 msgstr ""
-"Denna module ger dig möjlighet att skriva kommando till Asterisk på samma "
-"sätt som om kommandona skrev i kommandoradsprompten i Asterisk"
+
+#: assets/js/asterisk-cli.js:10
+msgid "Loading..."
+msgstr ""
+
+#: Asteriskdashcli.class.php:51
+msgid "No Output Returned"
+msgstr ""
+
+#: page.cli.php:31
+msgid "Send Command"
+msgstr ""
+
+#~ msgid "Command:"
+#~ msgstr "Kommando"
+
+#~ msgid "Execute:"
+#~ msgstr "Utför"
+
+#~ msgid ""
+#~ "Provides an interface allowing you to run a command as if it was typed "
+#~ "into Asterisk CLI"
+#~ msgstr ""
+#~ "Denna module ger dig möjlighet att skriva kommando till Asterisk på samma "
+#~ "sätt som om kommandona skrev i kommandoradsprompten i Asterisk"
 
 #~ msgid "System Administration"
 #~ msgstr "Systemadministration"

@@ -3,8 +3,9 @@
 	<repo>extended</repo>
 	<name>Asterisk CLI</name>
 	<version>13.0.1</version>
-	<publisher>FreePBX</publisher>
-	<license>GPLv2+</license>
+	<publisher>Sangoma Technologies, Inc</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
 	<category>Admin</category>
 	<description>Provides an interface allowing you to run a command as if it was typed into Asterisk CLI</description>
 	<menuitems>
