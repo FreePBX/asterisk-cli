@@ -41,27 +41,16 @@ class Asteriskdashcli implements \BMO {
 	public function cli_runcommand($txtCommand) {
 		if ($this->AstMan) {
 			$response = $this->AstMan->send_request('Command',array('Command'=>"$txtCommand"));
-			$response = explode("\n",$response['data']);
-			unset($response[0]); //remove the Priviledge Command line
-			$response = implode("\n",$response);
-			$html_out .= htmlspecialchars($response);
-			return $html_out;
-		}
-	}
+			if(!empty($response['data'])) {
+				$response = explode("\n",$response['data']);
+				unset($response[0]); //remove the Priviledge Command line
+				$response = implode("\n",$response);
+				$html_out = htmlspecialchars($response);
+				return $html_out;
+			} else {
+				return _("No Output Returned");
+			}
 
-	public function getActionBar($request) {
-		$buttons = array();
-		switch($request['display']) {
-			case 'cli':
-				$buttons = array(
-					'submit' => array(
-					'name' => 'CLIcmd',
-					'id' => 'send',
-					'value' => _('Send Command')
-					)
-				);
-			break;
 		}
-		return $buttons;
 	}
 }

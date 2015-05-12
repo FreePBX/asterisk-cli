@@ -9,33 +9,34 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="fpbx-container">
-				<div class="display full-border">
+				<div class="display no-border">
 					<div class="container-fluid">
 						<div class="section-title" data-for="asteriskcli">
 							<h3><?php echo _("Asterisk CLI") ?></h3>
 						</div>
-						<div class="section" data-id="asteriskcli">
-							<div class="element-container">
-								<div class="row">
-									<div class="col-md-12">
-										<div class="row">
-											<div class="form-group">
-												<div class="col-md-3">
-													<label class="control-label" for="astcmd"><?PHP echo _("CLI Command") ?></label>
-												</div>
-												<div class="col-md-9"><input type="text" class="form-control" id="astcmd">
+						<div class="row">
+							<div class="section" data-id="asteriskcli">
+								<div class="element-container">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="row">
+												<div class="form-group">
+													<div class="col-md-3">
+														<label class="control-label" for="astcmd"><?PHP echo _("CLI Command") ?></label>
+													</div>
+													<div class="col-md-9">
+														<div class="input-group">
+															<input type="text" class="form-control" id="astcmd">
+															<span class="input-group-btn">
+																<button class="btn btn-default" id="send" type="button"><?php echo _('Send Command')?></button>
+															</span>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<button type="button" id = "send" class="btn btn-primary">Send Command</button>
-								<br/>
-								<br/>
 							</div>
 						</div>
 						<div class="row">
@@ -46,8 +47,7 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 						</div>
 					</div>
 				</div>
-			</form>
+			</div>
 		</div>
 	</div>
 </div>
-<script src="assets/js/asterisk-cli.js"></script>
