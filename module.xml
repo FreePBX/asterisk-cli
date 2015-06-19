@@ -3,7 +3,7 @@
 	<repo>extended</repo>
 	<name>Asterisk CLI</name>
 	<version>13.0.2</version>
-	<publisher>Sangoma Technologies, Inc</publisher>
+	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
 	<category>Admin</category>
