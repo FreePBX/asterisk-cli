@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-12 19:51-0400\n"
-"PO-Revision-Date: 2015-10-10 11:23+0200\n"
+"PO-Revision-Date: 2016-04-02 20:35+0200\n"
 "Last-Translator: Media <mousavi.media@gmail.com>\n"
 "Language-Team: Persian <http://weblate.freepbx.org/projects/freepbx/asterisk-"
 "cli/fa/>\n"
@@ -19,15 +19,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.2-dev\n"
+"X-Generator: Weblate 2.4\n"
 
 #: page.cli.php:15
 msgid "Asterisk CLI"
-msgstr ""
+msgstr "خط فرمان استریسک"
 
 #: page.cli.php:25
 msgid "CLI Command"
-msgstr ""
+msgstr "دستورات خط فرمان"
 
 #: assets/js/asterisk-cli.js:10
 msgid "Loading..."
