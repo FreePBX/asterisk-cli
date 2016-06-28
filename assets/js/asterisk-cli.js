@@ -8,7 +8,7 @@ $("#astcmd").keyup(function(event){
 $('#send').click(function(){
 	var dat = $('#astcmd').val();
   $('div.output').html("<pre>"+ _("Loading...") +"</pre>");
-	$.get("/admin/ajax.php?module=asterisk-cli&command=clicmd&data=" + dat,function(data,status){
+	$.get("ajax.php?module=asterisk-cli&command=clicmd&data=" + dat,function(data,status){
 		if(data.status) {
 			var reply = JSON.parse(data.message);
 			$('div.output').html("<pre>"+ reply +"</pre>");
