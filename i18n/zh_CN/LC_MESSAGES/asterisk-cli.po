@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.5 Chinese Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-12 19:51-0400\n"
+"POT-Creation-Date: 2016-06-27 18:18-0700\n"
 "PO-Revision-Date: 2015-02-05 20:53+0200\n"
 "Last-Translator: james <zhulizhong@gmail.com>\n"
 "Language-Team: Simplified Chinese <http://git.freepbx.org/projects/freepbx/"
@@ -22,7 +22,11 @@ msgstr ""
 "X-Poedit-Country: CHINA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: page.cli.php:15
+#: asterisk-cli.i18n.php:6 asterisk-cli.i18n.php:12
+msgid "Admin"
+msgstr ""
+
+#: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
 msgid "Asterisk CLI"
 msgstr "Asterisk控制台"
 
@@ -38,6 +42,12 @@ msgstr ""
 msgid "No Output Returned"
 msgstr ""
 
+#: asterisk-cli.i18n.php:8
+msgid ""
+"Provides an interface allowing you to run a command as if it was typed into "
+"Asterisk CLI"
+msgstr "提供接口来执行CLI命令"
+
 #: page.cli.php:31
 msgid "Send Command"
 msgstr ""
@@ -47,8 +57,3 @@ msgstr ""
 
 #~ msgid "Execute:"
 #~ msgstr "执行："
-
-#~ msgid ""
-#~ "Provides an interface allowing you to run a command as if it was typed "
-#~ "into Asterisk CLI"
-#~ msgstr "提供接口来执行CLI命令"

@@ -7,19 +7,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-12 19:51-0400\n"
+"POT-Creation-Date: 2016-06-27 18:18-0700\n"
 "PO-Revision-Date: 2016-05-09 02:54+0200\n"
 "Last-Translator: Avishay <baabad@outlook.com>\n"
 "Language-Team: Hebrew <http://weblate.freepbx.org/projects/freepbx/asterisk-"
 "cli/he_IL/>\n"
-"Language: he_IL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: he_IL\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.4\n"
 
-#: page.cli.php:15
+#: asterisk-cli.i18n.php:6 asterisk-cli.i18n.php:12
+msgid "Admin"
+msgstr ""
+
+#: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
 msgid "Asterisk CLI"
 msgstr "ממשק שורת הפקודה של אסטריסק"
 
@@ -34,6 +38,12 @@ msgstr "טוען..."
 #: Asteriskdashcli.class.php:51
 msgid "No Output Returned"
 msgstr "לא הוחזר פלט"
+
+#: asterisk-cli.i18n.php:8
+msgid ""
+"Provides an interface allowing you to run a command as if it was typed into "
+"Asterisk CLI"
+msgstr ""
 
 #: page.cli.php:31
 msgid "Send Command"

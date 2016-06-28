@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-12 19:51-0400\n"
+"POT-Creation-Date: 2016-06-27 18:18-0700\n"
 "PO-Revision-Date: 2011-09-23 09:52+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -30,7 +30,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: page.cli.php:15
+#: asterisk-cli.i18n.php:6 asterisk-cli.i18n.php:12
+msgid "Admin"
+msgstr ""
+
+#: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
 msgid "Asterisk CLI"
 msgstr ""
 
@@ -44,6 +48,12 @@ msgstr ""
 
 #: Asteriskdashcli.class.php:51
 msgid "No Output Returned"
+msgstr ""
+
+#: asterisk-cli.i18n.php:8
+msgid ""
+"Provides an interface allowing you to run a command as if it was typed into "
+"Asterisk CLI"
 msgstr ""
 
 #: page.cli.php:31

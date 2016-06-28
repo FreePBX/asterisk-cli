@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.10.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-12 19:51-0400\n"
+"POT-Creation-Date: 2016-06-27 18:18-0700\n"
 "PO-Revision-Date: 2013-11-26 16:18+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -47,7 +47,11 @@ msgstr ""
 "Language: ja\n"
 "X-Generator: Poedit 1.6beta2\n"
 
-#: page.cli.php:15
+#: asterisk-cli.i18n.php:6 asterisk-cli.i18n.php:12
+msgid "Admin"
+msgstr "アドミン"
+
+#: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
 msgid "Asterisk CLI"
 msgstr "Asterisk CLI"
 
@@ -63,22 +67,20 @@ msgstr ""
 msgid "No Output Returned"
 msgstr ""
 
+#: asterisk-cli.i18n.php:8
+msgid ""
+"Provides an interface allowing you to run a command as if it was typed into "
+"Asterisk CLI"
+msgstr ""
+"Asterisk CLIへタイプするのと同様に、コマンドを実行するインターフェイスを提供"
+"します。"
+
 #: page.cli.php:31
 msgid "Send Command"
 msgstr ""
-
-#~ msgid "Admin"
-#~ msgstr "アドミン"
 
 #~ msgid "Command:"
 #~ msgstr "コマンド："
 
 #~ msgid "Execute:"
 #~ msgstr "実行："
-
-#~ msgid ""
-#~ "Provides an interface allowing you to run a command as if it was typed "
-#~ "into Asterisk CLI"
-#~ msgstr ""
-#~ "Asterisk CLIへタイプするのと同様に、コマンドを実行するインターフェイスを提"
-#~ "供します。"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-12 19:51-0400\n"
+"POT-Creation-Date: 2016-06-27 18:18-0700\n"
 "PO-Revision-Date: 2015-04-29 08:09+0200\n"
 "Last-Translator: Renato <fiuza@tecnologia.inf.br>\n"
 "Language-Team: Portuguese (Brazil) <http://weblate.freepbx.org/projects/"
@@ -21,7 +21,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.2-dev\n"
 
-#: page.cli.php:15
+#: asterisk-cli.i18n.php:6 asterisk-cli.i18n.php:12
+msgid "Admin"
+msgstr "Admin"
+
+#: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
 msgid "Asterisk CLI"
 msgstr "CLI Asterisk"
 
@@ -37,22 +41,20 @@ msgstr ""
 msgid "No Output Returned"
 msgstr ""
 
+#: asterisk-cli.i18n.php:8
+msgid ""
+"Provides an interface allowing you to run a command as if it was typed into "
+"Asterisk CLI"
+msgstr ""
+"Fornece uma interface permitindo rodar um comando como se estivesse dentro "
+"do CLI do Asterisk"
+
 #: page.cli.php:31
 msgid "Send Command"
 msgstr ""
-
-#~ msgid "Admin"
-#~ msgstr "Admin"
 
 #~ msgid "Command:"
 #~ msgstr "Comando:"
 
 #~ msgid "Execute:"
 #~ msgstr "Executar:"
-
-#~ msgid ""
-#~ "Provides an interface allowing you to run a command as if it was typed "
-#~ "into Asterisk CLI"
-#~ msgstr ""
-#~ "Fornece uma interface permitindo rodar um comando como se estivesse "
-#~ "dentro do CLI do Asterisk"

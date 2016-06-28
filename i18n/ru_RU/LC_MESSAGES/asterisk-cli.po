@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-12 19:51-0400\n"
+"POT-Creation-Date: 2016-06-27 18:18-0700\n"
 "PO-Revision-Date: 2012-10-28 04:00+0100\n"
 "Last-Translator: Alexander Kozyrev <ceo@postmet.com>\n"
 "Language-Team: Russian <faq@postmet.com>\n"
@@ -28,7 +28,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: page.cli.php:15
+#: asterisk-cli.i18n.php:6 asterisk-cli.i18n.php:12
+msgid "Admin"
+msgstr "Админ"
+
+#: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
 msgid "Asterisk CLI"
 msgstr "Командная строка Астериск"
 
@@ -44,22 +48,20 @@ msgstr ""
 msgid "No Output Returned"
 msgstr ""
 
+#: asterisk-cli.i18n.php:8
+msgid ""
+"Provides an interface allowing you to run a command as if it was typed into "
+"Asterisk CLI"
+msgstr ""
+"Даёт возможность выполнять команды в рабочей среде интерфейса командной "
+"строки Астериск"
+
 #: page.cli.php:31
 msgid "Send Command"
 msgstr ""
-
-#~ msgid "Admin"
-#~ msgstr "Админ"
 
 #~ msgid "Command:"
 #~ msgstr "Команда:"
 
 #~ msgid "Execute:"
 #~ msgstr "Выполнить:"
-
-#~ msgid ""
-#~ "Provides an interface allowing you to run a command as if it was typed "
-#~ "into Asterisk CLI"
-#~ msgstr ""
-#~ "Даёт возможность выполнять команды в рабочей среде интерфейса командной "
-#~ "строки Астериск"

@@ -9,19 +9,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-12 19:51-0400\n"
+"POT-Creation-Date: 2016-06-27 18:18-0700\n"
 "PO-Revision-Date: 2016-06-01 07:35+0200\n"
 "Last-Translator: Hans <info@hansvaneijsden.nl>\n"
 "Language-Team: Dutch <http://weblate.freepbx.org/projects/freepbx/asterisk-"
 "cli/nl_NL/>\n"
-"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nl_NL\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.4\n"
 
-#: page.cli.php:15
+#: asterisk-cli.i18n.php:6 asterisk-cli.i18n.php:12
+msgid "Admin"
+msgstr "Beheerder"
+
+#: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
 msgid "Asterisk CLI"
 msgstr "Asterisk CLI"
 
@@ -37,21 +41,18 @@ msgstr "Laden..."
 msgid "No Output Returned"
 msgstr "Geen Output Teruggegeven"
 
+#: asterisk-cli.i18n.php:8
+msgid ""
+"Provides an interface allowing you to run a command as if it was typed into "
+"Asterisk CLI"
+msgstr "Geeft een invoerveld om een commando uit te voeren op de Asterisk CLI"
+
 #: page.cli.php:31
 msgid "Send Command"
 msgstr "Verstuur Commando"
-
-#~ msgid "Admin"
-#~ msgstr "Beheerder"
 
 #~ msgid "Command:"
 #~ msgstr "Commando:"
 
 #~ msgid "Execute:"
 #~ msgstr "Uitvoeren:"
-
-#~ msgid ""
-#~ "Provides an interface allowing you to run a command as if it was typed "
-#~ "into Asterisk CLI"
-#~ msgstr ""
-#~ "Geeft een invoerveld om een commando uit te voeren op de Asterisk CLI"
