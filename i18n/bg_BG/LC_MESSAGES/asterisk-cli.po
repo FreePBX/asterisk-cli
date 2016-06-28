@@ -37,19 +37,19 @@ msgstr "Астериск Конзола CLI"
 
 #: page.cli.php:25
 msgid "CLI Command"
-msgstr ""
+msgstr "CLI Команда"
 
 #: assets/js/asterisk-cli.js:10
 msgid "Loading..."
-msgstr ""
+msgstr "Зарреждам..."
 
 #: Asteriskdashcli.class.php:51
 msgid "No Output Returned"
-msgstr ""
+msgstr "Няма Обратна Информация"
 
 #: page.cli.php:31
 msgid "Send Command"
-msgstr ""
+msgstr "Изпрати Команда"
 
 #~ msgid "Admin"
 #~ msgstr "Админ"
