@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-27 18:18-0700\n"
-"PO-Revision-Date: 2016-12-14 14:07+0200\n"
+"PO-Revision-Date: 2016-12-14 14:11+0200\n"
 "Last-Translator: Sven <spiderrs4@web.de>\n"
 "Language-Team: German <http://weblate.freepbx.org/projects/freepbx/asterisk-"
 "cli/de_DE/>\n"
@@ -27,7 +27,7 @@ msgstr "Administrator"
 
 #: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
 msgid "Asterisk CLI"
-msgstr "Asterisk CLI"
+msgstr "Asterisk-CLI"
 
 #: page.cli.php:25
 msgid "CLI Command"
