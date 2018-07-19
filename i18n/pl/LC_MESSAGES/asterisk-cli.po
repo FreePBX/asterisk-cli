@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-27 18:18-0700\n"
+"POT-Creation-Date: 2018-07-19 17:58-0400\n"
 "PO-Revision-Date: 2017-03-19 12:39+0200\n"
 "Last-Translator: Michal <mboltz@tlen.pl>\n"
 "Language-Team: Polish <http://weblate.freepbx.org/projects/freepbx/asterisk-"
@@ -33,7 +33,7 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.4\n"
 
-#: asterisk-cli.i18n.php:6 asterisk-cli.i18n.php:12
+#: asterisk-cli.i18n.php:6
 msgid "Admin"
 msgstr "Administrator"
 

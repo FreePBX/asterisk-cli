@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-27 18:18-0700\n"
+"POT-Creation-Date: 2018-07-19 17:58-0400\n"
 "PO-Revision-Date: 2018-07-18 19:18+0000\n"
 "Last-Translator: Stell0 <stefano.fancello@nethesis.it>\n"
 "Language-Team: Italian <http://*/projects/freepbx/asterisk-cli/it/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-Language: Italian\n"
 "X-Poedit-Country: ITALY\n"
 
-#: asterisk-cli.i18n.php:6 asterisk-cli.i18n.php:12
+#: asterisk-cli.i18n.php:6
 msgid "Admin"
 msgstr "Admin"
 
