@@ -8,6 +8,7 @@
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
 	<category>Admin</category>
 	<description>Provides an interface allowing you to run a command as if it was typed into Asterisk CLI</description>
+	<more-info>https://wiki.freepbx.org/display/F2/Asterisk+CLI+Module</more-info>
 	<menuitems>
 		<cli needsenginerunning="yes">Asterisk CLI</cli>
 	</menuitems>
