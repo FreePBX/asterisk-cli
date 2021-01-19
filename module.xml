@@ -2,7 +2,7 @@
 	<rawname>asterisk-cli</rawname>
 	<repo>extended</repo>
 	<name>Asterisk CLI</name>
-	<version>13.0.5</version>
+	<version>13.0.6</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
@@ -18,6 +18,7 @@
 	<location>release/2.11/asterisk-cli-2.11.0.0.tgz</location>
 	<md5sum>e575da7d4cc3a449e248bad57c66dcb5</md5sum>
 	<changelog>
+		*13.0.6* Packaging of ver 13.0.6
 		*13.0.5* Packaging of ver 13.0.5
 		*13.0.4* FREEPBX-12606 Absolute paths used in some modules.
 		*13.0.3* Asterisk needs to be running for this to be useful
