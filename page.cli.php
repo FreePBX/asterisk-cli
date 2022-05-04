@@ -15,12 +15,12 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 							<h3><?php echo _("Asterisk CLI") ?></h3>
 						</div>
 						<div class="row">
-							<div class="section" data-id="asteriskcli">
+							<div class="section col-md-12" data-id="asteriskcli">
 								<div class="element-container">
 									<div class="row">
 										<div class="col-md-12">
-											<div class="row">
-												<div class="form-group">
+											<div class="">
+												<div class="row form-group">
 													<div class="col-md-3">
 														<label class="control-label" for="astcmd"><?PHP echo _("CLI Command") ?></label>
 													</div>
