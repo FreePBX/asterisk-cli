@@ -27,9 +27,9 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 													<div class="col-md-9">
 														<div class="input-group">
 															<input type="text" class="form-control" id="astcmd">
-															<div class="input-group-append">
+															<span class="input-group-btn">
 																<button class="btn btn-default" id="send" type="button"><?php echo _('Send Command')?></button>
-															</div>
+															</span>
 														</div>
 													</div>
 												</div>
