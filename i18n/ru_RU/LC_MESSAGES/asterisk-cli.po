@@ -6,22 +6,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-08 02:26+0000\n"
+"POT-Creation-Date: 2022-06-06 08:37+0000\n"
 "PO-Revision-Date: 2022-04-19 05:13+0000\n"
 "Last-Translator: Dmitriy Q <krotesk@ya.ru>\n"
-"Language-Team: Russian <http://weblate.freepbx.org/projects/freepbx/"
-"asterisk-cli/ru/>\n"
+"Language-Team: Russian <http://weblate.freepbx.org/projects/freepbx/asterisk-"
+"cli/ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.0.1\n"
 
 #: asterisk-cli.i18n.php:6
 msgid "Admin"
 msgstr "Администратор"
+
+#: assets/js/asterisk-cli.js:61
+msgid "All Ready"
+msgstr ""
 
 #: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
 msgid "Asterisk CLI"
@@ -31,11 +35,15 @@ msgstr "Командная строка Астериск"
 msgid "CLI Command"
 msgstr "Команда CLI"
 
-#: assets/js/asterisk-cli.js:10
+#: assets/js/asterisk-cli.js:65
+msgid "Error getting list of commands!!"
+msgstr ""
+
+#: assets/js/asterisk-cli.js:19 assets/js/asterisk-cli.js:45
 msgid "Loading..."
 msgstr "Загрузка..."
 
-#: Asteriskdashcli.class.php:51
+#: Asteriskdashcli.class.php:63
 msgid "No Output Returned"
 msgstr "Не выведено никакой информации"
 

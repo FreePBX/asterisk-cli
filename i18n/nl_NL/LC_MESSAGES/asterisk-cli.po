@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-19 17:58-0400\n"
+"POT-Creation-Date: 2022-06-06 08:37+0000\n"
 "PO-Revision-Date: 2016-06-01 07:35+0200\n"
 "Last-Translator: Hans <info@hansvaneijsden.nl>\n"
 "Language-Team: Dutch <http://weblate.freepbx.org/projects/freepbx/asterisk-"
@@ -25,6 +25,10 @@ msgstr ""
 msgid "Admin"
 msgstr "Beheerder"
 
+#: assets/js/asterisk-cli.js:61
+msgid "All Ready"
+msgstr ""
+
 #: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
 msgid "Asterisk CLI"
 msgstr "Asterisk CLI"
@@ -33,11 +37,15 @@ msgstr "Asterisk CLI"
 msgid "CLI Command"
 msgstr "CLI Commando"
 
-#: assets/js/asterisk-cli.js:10
+#: assets/js/asterisk-cli.js:65
+msgid "Error getting list of commands!!"
+msgstr ""
+
+#: assets/js/asterisk-cli.js:19 assets/js/asterisk-cli.js:45
 msgid "Loading..."
 msgstr "Laden..."
 
-#: Asteriskdashcli.class.php:51
+#: Asteriskdashcli.class.php:63
 msgid "No Output Returned"
 msgstr "Geen Output Teruggegeven"
 
