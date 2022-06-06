@@ -16,16 +16,28 @@ class Asteriskdashcli implements \BMO {
 	public function restore($backup) {}
 	public function doConfigPageInit($page) {}
 	public function ajaxRequest($req, &$setting) {
-		if ($req == "clicmd") {
-			return true;
+		$return_data = false;
+		switch($req)
+		{
+			case "clicmd":
+			case "getCliCommands":
+				$return_data = true;
+				break;
 		}
-		return false;
+		return $return_data;
 	}
 
 	public function ajaxHandler() {
-		if ($_REQUEST['command'] == "clicmd") {
-			$res = $this->cli_runcommand($_REQUEST['data']);
-			return json_encode($res);
+		switch($_REQUEST['command']) { 
+			case "clicmd":
+				$res = $this->cli_runcommand($_REQUEST['data']);
+				return json_encode($res);
+				break;
+
+			case "getCliCommands":
+				$res = $this->cli_getcommands();
+				return array('status' => true, 'cliCommands' => $res);
+				break;
 		}
 	}
 
@@ -52,5 +64,22 @@ class Asteriskdashcli implements \BMO {
 			}
 
 		}
+	}
+
+	public function cli_getcommands() {
+		$return_data = array();
+		if ($this->AstMan) {
+			$response = $this->AstMan->send_request('Command',array('Command'=>"core show help"));
+			if(!empty($response['data'])) {
+				$response = explode("\n",$response['data']);
+				unset($response[0]); //remove the Priviledge Command line
+
+				foreach($response as $line) {
+					if (strlen((trim($line))) == 0) { continue; }
+					$return_data[] = trim(explode("--", $line)[0]);
+				}
+			}
+		}
+		return $return_data;
 	}
 }
