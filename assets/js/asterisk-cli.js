@@ -55,7 +55,14 @@ $(document).ready(function()
             },
             {
                 name: 'cliCommands',
-                source: substringMatcher(data.cliCommands)
+                display: 'cmd',
+                source: substringMatcherCmd(data.cliCommands),
+                templates: {
+                    suggestion: function(data) {
+                        return '<p><strong>' + data.cmd + '</strong><br>' +
+                        '<i class="fa fa-arrow-right" aria-hidden="true"></i> ' + data.info + '</p>';
+                    }
+                }
             });
 
             msg = "<pre>"+ _("All Ready") + "</pre>";
@@ -89,7 +96,29 @@ var substringMatcher = function(strs)
                 matches.push({ value:str });
             }
         });
+        cb(matches);
+    };
+};
 
+var substringMatcherCmd = function(strs)
+{
+    return function findMatches(q, cb) {
+        var matches, substringRegex;
+  
+        // an array that will be populated with substring matches
+        matches = [];
+  
+        // regex used to determine if a string contains the substring `q`
+        substrRegex = new RegExp(q, 'i');
+  
+        // iterate through the pool of strings and for any string that
+        // contains the substring `q`, add it to the `matches` array
+        $.each(strs, function(i, str) {
+            if (substrRegex.test(str.cmd)) {
+                matches.push(str);
+            }
+        });
+  
         cb(matches);
     };
 };
