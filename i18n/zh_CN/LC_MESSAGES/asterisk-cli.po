@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.5 Chinese Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-06 08:37+0000\n"
+"POT-Creation-Date: 2022-07-27 06:12+0000\n"
 "PO-Revision-Date: 2015-02-05 20:53+0200\n"
 "Last-Translator: james <zhulizhong@gmail.com>\n"
 "Language-Team: Simplified Chinese <http://git.freepbx.org/projects/freepbx/"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "Admin"
 msgstr ""
 
-#: assets/js/asterisk-cli.js:61
+#: assets/js/asterisk-cli.js:68
 msgid "All Ready"
 msgstr ""
 
@@ -38,7 +38,7 @@ msgstr "Asterisk控制台"
 msgid "CLI Command"
 msgstr ""
 
-#: assets/js/asterisk-cli.js:65
+#: assets/js/asterisk-cli.js:72
 msgid "Error getting list of commands!!"
 msgstr ""
 

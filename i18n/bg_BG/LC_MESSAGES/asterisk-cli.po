@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-06 08:37+0000\n"
+"POT-Creation-Date: 2022-07-27 06:12+0000\n"
 "PO-Revision-Date: 2014-11-17 17:15+0200\n"
 "Last-Translator: Chavdar <chavdar_75@yahoo.com>\n"
 "Language-Team: Bulgarian <http://git.freepbx.org/projects/freepbx/asterisk-"
@@ -36,7 +36,7 @@ msgstr ""
 msgid "Admin"
 msgstr "Админ"
 
-#: assets/js/asterisk-cli.js:61
+#: assets/js/asterisk-cli.js:68
 msgid "All Ready"
 msgstr ""
 
@@ -48,7 +48,7 @@ msgstr "Астериск Конзола CLI"
 msgid "CLI Command"
 msgstr "CLI Команда"
 
-#: assets/js/asterisk-cli.js:65
+#: assets/js/asterisk-cli.js:72
 msgid "Error getting list of commands!!"
 msgstr ""
 

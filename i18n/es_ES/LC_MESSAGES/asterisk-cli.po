@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: FreePBX - módulo asterisk-cli module spanish "
 "translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-06 08:37+0000\n"
+"POT-Creation-Date: 2022-07-27 06:12+0000\n"
 "PO-Revision-Date: 2015-12-29 08:37+0200\n"
 "Last-Translator: Ernesto <ecasas@sangoma.com>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/asterisk-"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Admin"
 msgstr "Administrador"
 
-#: assets/js/asterisk-cli.js:61
+#: assets/js/asterisk-cli.js:68
 msgid "All Ready"
 msgstr ""
 
@@ -34,7 +34,7 @@ msgstr "CLI Asterisk"
 msgid "CLI Command"
 msgstr "Comando CLI"
 
-#: assets/js/asterisk-cli.js:65
+#: assets/js/asterisk-cli.js:72
 msgid "Error getting list of commands!!"
 msgstr ""
 

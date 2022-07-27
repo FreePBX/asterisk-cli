@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-06 08:37+0000\n"
+"POT-Creation-Date: 2022-07-27 06:12+0000\n"
 "PO-Revision-Date: 2020-11-18 16:00+0000\n"
 "Last-Translator: Danilo Smaldone <dsmaldone@sangoma.com>\n"
 "Language-Team: Italian <http://weblate.freepbx.org/projects/freepbx/asterisk-"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Admin"
 msgstr "Admin"
 
-#: assets/js/asterisk-cli.js:61
+#: assets/js/asterisk-cli.js:68
 msgid "All Ready"
 msgstr ""
 
@@ -37,7 +37,7 @@ msgstr "CLI Asterisk"
 msgid "CLI Command"
 msgstr "Comando CLI"
 
-#: assets/js/asterisk-cli.js:65
+#: assets/js/asterisk-cli.js:72
 msgid "Error getting list of commands!!"
 msgstr ""
 
