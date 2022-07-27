@@ -35,7 +35,7 @@ class Asteriskdashcli implements \BMO {
 				break;
 
 			case "getCliCommands":
-				$res = $this->cli_getcommands();
+				$res = $this->cli_getcommands(true);
 				return array('status' => true, 'cliCommands' => $res);
 				break;
 		}
@@ -66,7 +66,7 @@ class Asteriskdashcli implements \BMO {
 		}
 	}
 
-	public function cli_getcommands() {
+	public function cli_getcommands($info = false) {
 		$return_data = array();
 		if ($this->AstMan) {
 			$response = $this->AstMan->send_request('Command',array('Command'=>"core show help"));
@@ -76,7 +76,14 @@ class Asteriskdashcli implements \BMO {
 
 				foreach($response as $line) {
 					if (strlen((trim($line))) == 0) { continue; }
-					$return_data[] = trim(explode("--", $line)[0]);
+					$help_cmd = $cmd = explode("--", $line);
+					$add_cmd = array(
+						'cmd' => trim($help_cmd[0]),
+					);
+					if ($info) {
+						$add_cmd['info'] = trim(trim($help_cmd[1]));
+					}
+					$return_data[] = $add_cmd;
 				}
 			}
 		}
