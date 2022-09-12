@@ -26,7 +26,9 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 													</div>
 													<div class="col-md-9">
 														<div class="input-group">
-															<input type="text" class="form-control typeaheadd" id="astcmd">
+															<div id="astcmd-scrollable-dropdown-menu">
+																<input type="text" class="form-control typeaheadd" id="astcmd">
+															</div>
 															<span class="input-group-btn">
 																<button class="btn btn-default" id="send" type="button"><i class="fa fa-paper-plane" aria-hidden="true"></i> <?php echo _('Send Command')?></button>
 															</span>
