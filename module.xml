@@ -2,7 +2,7 @@
 	<rawname>asterisk-cli</rawname>
 	<repo>extended</repo>
 	<name>Asterisk CLI</name>
-	<version>16.0.7</version>
+	<version>16.0.8</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
@@ -18,6 +18,7 @@
 	<location>release/2.11/asterisk-cli-2.11.0.0.tgz</location>
 	<md5sum>e575da7d4cc3a449e248bad57c66dcb5</md5sum>
 	<changelog>
+		*16.0.8* FREEPBX-23712 
 		*16.0.7* FREEPBX-23583 
 		*16.0.6* FREEPBX-23519: asterisk-cli change ajax queries from type get to type post 
 		*16.0.5* Reverting Bootstrap and dependent libs fixes 

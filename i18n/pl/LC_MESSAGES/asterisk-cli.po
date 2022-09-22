@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 06:12+0000\n"
+"POT-Creation-Date: 2022-09-22 11:11+0000\n"
 "PO-Revision-Date: 2017-03-19 12:39+0200\n"
 "Last-Translator: Michal <mboltz@tlen.pl>\n"
 "Language-Team: Polish <http://weblate.freepbx.org/projects/freepbx/asterisk-"
@@ -33,15 +33,11 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.4\n"
 
-#: asterisk-cli.i18n.php:6
-msgid "Admin"
-msgstr "Administrator"
-
 #: assets/js/asterisk-cli.js:68
 msgid "All Ready"
 msgstr ""
 
-#: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
+#: page.cli.php:15
 msgid "Asterisk CLI"
 msgstr "Odsyłacz CLI"
 
@@ -61,14 +57,16 @@ msgstr "Ładowanie..."
 msgid "No Output Returned"
 msgstr "Brak powrotu syganłu"
 
-#: asterisk-cli.i18n.php:8
-msgid ""
-"Provides an interface allowing you to run a command as if it was typed into "
-"Asterisk CLI"
-msgstr ""
-"Zapewnia interfejs pozwalający na uruchomienie polecenia tak jakby było to "
-"wpisane w odsyłacz CLI"
-
-#: page.cli.php:31
+#: page.cli.php:33
 msgid "Send Command"
 msgstr "Wyślij polecenie"
+
+#~ msgid "Admin"
+#~ msgstr "Administrator"
+
+#~ msgid ""
+#~ "Provides an interface allowing you to run a command as if it was typed "
+#~ "into Asterisk CLI"
+#~ msgstr ""
+#~ "Zapewnia interfejs pozwalający na uruchomienie polecenia tak jakby było "
+#~ "to wpisane w odsyłacz CLI"
