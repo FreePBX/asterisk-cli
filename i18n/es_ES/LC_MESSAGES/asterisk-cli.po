@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: FreePBX - módulo asterisk-cli module spanish "
 "translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 06:12+0000\n"
+"POT-Creation-Date: 2022-09-22 11:11+0000\n"
 "PO-Revision-Date: 2015-12-29 08:37+0200\n"
 "Last-Translator: Ernesto <ecasas@sangoma.com>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/asterisk-"
@@ -18,15 +18,11 @@ msgstr ""
 "X-Poedit-Country: SPAIN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: asterisk-cli.i18n.php:6
-msgid "Admin"
-msgstr "Administrador"
-
 #: assets/js/asterisk-cli.js:68
 msgid "All Ready"
 msgstr ""
 
-#: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
+#: page.cli.php:15
 msgid "Asterisk CLI"
 msgstr "CLI Asterisk"
 
@@ -46,17 +42,19 @@ msgstr "Cargando..."
 msgid "No Output Returned"
 msgstr "Sin Salida devuelta"
 
-#: asterisk-cli.i18n.php:8
-msgid ""
-"Provides an interface allowing you to run a command as if it was typed into "
-"Asterisk CLI"
-msgstr ""
-"Provee una interface que le permite correr comandos como si estuviese en el "
-"CLI de Asterisk"
-
-#: page.cli.php:31
+#: page.cli.php:33
 msgid "Send Command"
 msgstr "Enviar Comando"
+
+#~ msgid "Admin"
+#~ msgstr "Administrador"
+
+#~ msgid ""
+#~ "Provides an interface allowing you to run a command as if it was typed "
+#~ "into Asterisk CLI"
+#~ msgstr ""
+#~ "Provee una interface que le permite correr comandos como si estuviese en "
+#~ "el CLI de Asterisk"
 
 #~ msgid "Command:"
 #~ msgstr "Comando:"

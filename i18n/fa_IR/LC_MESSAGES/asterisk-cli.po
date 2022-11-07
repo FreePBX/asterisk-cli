@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 06:12+0000\n"
+"POT-Creation-Date: 2022-09-22 11:11+0000\n"
 "PO-Revision-Date: 2016-06-30 16:01+0200\n"
 "Last-Translator: Media <mousavi.media@gmail.com>\n"
 "Language-Team: Persian (Iran) <http://weblate.freepbx.org/projects/freepbx/"
@@ -21,15 +21,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.4\n"
 
-#: asterisk-cli.i18n.php:6
-msgid "Admin"
-msgstr "مدیر"
-
 #: assets/js/asterisk-cli.js:68
 msgid "All Ready"
 msgstr ""
 
-#: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
+#: page.cli.php:15
 msgid "Asterisk CLI"
 msgstr "خط فرمان استریسک"
 
@@ -49,14 +45,16 @@ msgstr "در حال بارگذاری…"
 msgid "No Output Returned"
 msgstr "بدون خروجی"
 
-#: asterisk-cli.i18n.php:8
-msgid ""
-"Provides an interface allowing you to run a command as if it was typed into "
-"Asterisk CLI"
-msgstr ""
-"فراهم کردن رابطی که به شما اجازه اجرای فرامین استریسک را مانند محیط خط فرمان "
-"میدهد"
-
-#: page.cli.php:31
+#: page.cli.php:33
 msgid "Send Command"
 msgstr "ارسال دستور"
+
+#~ msgid "Admin"
+#~ msgstr "مدیر"
+
+#~ msgid ""
+#~ "Provides an interface allowing you to run a command as if it was typed "
+#~ "into Asterisk CLI"
+#~ msgstr ""
+#~ "فراهم کردن رابطی که به شما اجازه اجرای فرامین استریسک را مانند محیط خط "
+#~ "فرمان میدهد"

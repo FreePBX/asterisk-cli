@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 06:12+0000\n"
+"POT-Creation-Date: 2022-09-22 11:11+0000\n"
 "PO-Revision-Date: 2014-11-17 17:15+0200\n"
 "Last-Translator: Chavdar <chavdar_75@yahoo.com>\n"
 "Language-Team: Bulgarian <http://git.freepbx.org/projects/freepbx/asterisk-"
@@ -32,15 +32,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 1.10-dev\n"
 
-#: asterisk-cli.i18n.php:6
-msgid "Admin"
-msgstr "Админ"
-
 #: assets/js/asterisk-cli.js:68
 msgid "All Ready"
 msgstr ""
 
-#: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
+#: page.cli.php:15
 msgid "Asterisk CLI"
 msgstr "Астериск Конзола CLI"
 
@@ -60,17 +56,19 @@ msgstr "Зарреждам..."
 msgid "No Output Returned"
 msgstr "Няма Обратна Информация"
 
-#: asterisk-cli.i18n.php:8
-msgid ""
-"Provides an interface allowing you to run a command as if it was typed into "
-"Asterisk CLI"
-msgstr ""
-"Предоставя интерфейс, който позволява да се изпълняват команди както се "
-"използват в Астериск CLI"
-
-#: page.cli.php:31
+#: page.cli.php:33
 msgid "Send Command"
 msgstr "Изпрати Команда"
+
+#~ msgid "Admin"
+#~ msgstr "Админ"
+
+#~ msgid ""
+#~ "Provides an interface allowing you to run a command as if it was typed "
+#~ "into Asterisk CLI"
+#~ msgstr ""
+#~ "Предоставя интерфейс, който позволява да се изпълняват команди както се "
+#~ "използват в Астериск CLI"
 
 #~ msgid "Command:"
 #~ msgstr "Команда:"
