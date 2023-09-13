@@ -3,6 +3,7 @@
 //	Copyright 2013 Schmooze Com Inc.
 namespace FreePBX\modules;
 
+#[\AllowDynamicProperties]
 class Asteriskdashcli implements \BMO {
 	public function __construct($freepbx = null) {
 		if ($freepbx == null) {
