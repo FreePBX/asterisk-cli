@@ -20,7 +20,7 @@ Provides an interface allowing you to run a command as if it was typed into Aste
  
 ###Setting up a FreePBX system
 
-[See our WIKI](http://wiki.freepbx.org/display/FOP/Install+FreePBX)
+[See our WIKI](http://sangomakb.atlassian.net/wiki/spaces/FP/pages/9732130/Install+FreePBX)
  
 ###License
 
@@ -28,10 +28,10 @@ Provides an interface allowing you to run a command as if it was typed into Aste
 
 ###Contributing
 
-To contribute code or modules back into the [FreePBX©](http://www.freepbx.org/ "FreePBX Home Page") ecosystem you must fully read our Code License Agreement. We are not able to look at or accept patches or code of any kind until this document is filled out. Please take a look at [http://wiki.freepbx.org/display/DC/Code+License+Agreement](http://wiki.freepbx.org/display/DC/Code+License+Agreement) for more information
+To contribute code or modules back into the [FreePBX©](http://www.freepbx.org/ "FreePBX Home Page") ecosystem you must fully read our Code License Agreement. We are not able to look at or accept patches or code of any kind until this document is filled out. Please take a look at [http://sangomakb.atlassian.net/wiki/spaces/FP/pages/10682663/Contributor+License+Agreement](http://sangomakb.atlassian.net/wiki/spaces/FP/pages/10682663/Contributor+License+Agreement) for more information
 
 ###Issues
 
-Please file bug reports at http://issues.freepbx.org
+Please file bug reports at http://github.com/FreePBX/issue-tracker/issues
 
 
