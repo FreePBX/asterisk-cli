@@ -3,11 +3,13 @@
 //	Copyright 2013 Schmooze Com Inc.
 namespace FreePBX\modules;
 
-#[\AllowDynamicProperties]
 class Asteriskdashcli implements \BMO {
+	private object $FreePBX;
+	private mixed $AstMan;
+
 	public function __construct($freepbx = null) {
 		if ($freepbx == null) {
-			throw new Exception("Not given a FreePBX Object");
+			throw new \Exception("Not given a FreePBX Object");
 		}
 		$this->FreePBX = $freepbx;
 		$this->AstMan  = $freepbx->astman;
@@ -32,9 +34,9 @@ class Asteriskdashcli implements \BMO {
 	}
 
 	public function ajaxHandler() {
-		switch ($_REQUEST['command']) {
+		switch ($_REQUEST['command'] ?? '') {
 			case "clicmd":
-				$res = $this->cli_runcommand($_REQUEST['data']);
+				$res = $this->cli_runcommand($_REQUEST['data'] ?? '');
 				return json_encode($res, JSON_THROW_ON_ERROR);
 				break;
 
@@ -86,7 +88,7 @@ class Asteriskdashcli implements \BMO {
 					$help_cmd = $cmd = explode("--", $line);
 					$add_cmd = [ 'cmd' => trim($help_cmd[0]) ];
 					if ($info) {
-						$add_cmd['info'] = trim(trim($help_cmd[1]));
+						$add_cmd['info'] = trim((string) ($help_cmd[1] ?? ''));
 					}
 					$return_data[] = $add_cmd;
 				}
